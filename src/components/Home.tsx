@@ -39,7 +39,6 @@ const Home = () => {
           </div>
         )}
 
-
         <div className="mainPage">
           <Main />
         </div>
