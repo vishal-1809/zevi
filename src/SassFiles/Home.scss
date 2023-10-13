@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(231, 230, 230);
+    background-color: rgb(231, 229, 229);
+}
+
+.home {
+    background-image: url('../images/home.png');
+    height: 115vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .search {
+        margin-top: 10.3rem;
+        margin-left: 18.8rem;
+        height: 3.1rem;
+        width: 54.5rem;
+        opacity: 0.5;
+        border-radius: 1.5rem;
+        padding: 1rem;
+        padding-left: 2.5rem;
+        font-size: 1.8rem;
+        color: black;
+    }
+
+    .latestTrends {
+        // padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        margin-left: 16rem;
+        margin-top: 2rem;
+        height: 35rem;
+        width: 62rem;
+        box-shadow: 1rem 1rem 1rem grey;
+        background-color: white;
+        border-radius: 1rem;
+        margin-bottom: 5rem;
+    }
+}

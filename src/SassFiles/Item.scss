@@ -1,0 +1,73 @@
+.items {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 4rem;
+
+    .item {
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+
+        .itemTitle {
+            font-size: 1rem;
+            font-weight: 500;
+            padding-top: 0.5rem;
+            padding-left: 1.4rem;
+        }
+        .itemImg {
+            height: 18rem;
+            width: 13rem;
+        }
+
+        .imgTag:hover {
+            .view {
+                text-align: center;
+                background-color: blue;
+                color: white;
+                position: relative;
+                margin-top: -3.6rem;
+                padding: 1rem;
+                width: 11rem;
+                opacity: 0.5;
+            }
+        }
+        
+
+        .heart {
+            position: absolute;
+            margin-left: 10.4rem;
+            margin-top: 1rem;
+            height: 1.5rem;
+            // color: white;
+            cursor: pointer;
+        }
+
+        .price {
+            padding-left: 1.2rem;
+        }
+
+        .prev {
+            color: grey;
+            text-decoration: line-through;
+            padding: 0.2rem;
+        }
+
+        .curr {
+            color: rgb(105, 105, 252);
+            font-weight: 500;
+            padding: 0.2rem;
+        }
+
+        .ratings {
+            padding-top: 0.3rem;
+            padding-left: 1.2rem;
+
+            .number {
+                position: absolute;
+                font-size: 0.8rem;
+                padding-left: 0.4rem;
+            }
+        }
+    }
+
+}
